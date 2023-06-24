@@ -8734,13 +8734,13 @@ html:not(.lt-ie10) .not-animated {
 .preloader::before {
 	top: 0;
 	bottom: 50%;
-	background: #445878;
+	background: transparent;
 }
 
 .preloader::after {
 	top: 50%;
 	bottom: 0;
-	background: #445878;
+	background: transparent;
 }
 
 .preloader.loaded::before, .preloader.loaded::after {
